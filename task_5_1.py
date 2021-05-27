@@ -9,3 +9,4 @@ in_number = int(input('Введите число - правую границу �
 odd_num_gen = numbers_gen(in_number)
 for i in range(1, in_number + 1, 2):
     print(next(odd_num_gen))
+print(type(odd_num_gen))
